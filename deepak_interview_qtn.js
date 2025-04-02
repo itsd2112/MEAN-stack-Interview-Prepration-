@@ -72,22 +72,22 @@
 
 /* ------------------------------------------------------------------------------------------------------------------- */
 
-Hoisting:  
-	Hoisting is a jvascript mechanism to where variables and functions declarations are moved to the top of their scope before code exection.
+// Hoisting:  
+// 	Hoisting is a jvascript mechanism to where variables and functions declarations are moved to the top of their scope before code exection.
 
---------------------------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------------
 
-Difference betweenn POST amd PUT method
+// Difference betweenn POST amd PUT method
 
-Choosing between using PUT vs POST should be based on the action's IDEMPOTENCE.
-	Idempotence is the property of certain operations in imathematics and computer science, that can be applied multiple times without changing the result beyond the initial application.
+// Choosing between using PUT vs POST should be based on the action's IDEMPOTENCE.
+// 	Idempotence is the property of certain operations in imathematics and computer science, that can be applied multiple times without changing the result beyond the initial application.
 
-we can say that the PUT method is Idempotent because no matter how many times we send the same request , the result will be the same.
-on the other hand the POST Method is not Idempotent since we send the same POST Request multiple times , we will recieve various results.(i.e a new subordinate will be created eah time.)
+// we can say that the PUT method is Idempotent because no matter how many times we send the same request , the result will be the same.
+// on the other hand the POST Method is not Idempotent since we send the same POST Request multiple times , we will recieve various results.(i.e a new subordinate will be created eah time.)
 
-the fundamental difference between the POST and PUT requests is reflected in the different meaning of the requested URI.
-The URI in a POST request idendify the resource that will handle the enclosed entity ...
-In contrast, the URI in PUT request identifies the entity enclosed with the request.
+// the fundamental difference between the POST and PUT requests is reflected in the different meaning of the requested URI.
+// The URI in a POST request idendify the resource that will handle the enclosed entity ...
+// In contrast, the URI in PUT request identifies the entity enclosed with the request.
 
-When you know the URL of the thing you want to create or overwrite, a PUT method should be used. Alternatively, if you only know the URL of the category or sub-section of the thing you want to create something within, use the POST method. 
+// When you know the URL of the thing you want to create or overwrite, a PUT method should be used. Alternatively, if you only know the URL of the category or sub-section of the thing you want to create something within, use the POST method. 
 
